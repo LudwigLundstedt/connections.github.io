@@ -1,5 +1,5 @@
 function autofill() {
-  fetch("../assets/groups.json")
+  fetch("./assets/groups.json")
     .then((response) => response.json()) // Parse the JSON
     .then((data) => {
       // Initialize an array to store the transformed key-value pairs
