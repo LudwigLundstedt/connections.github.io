@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submit Example</title>
+    <link href="css/reset.css" rel="stylesheet">
+
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="js/enter.js" type="module"></script>
+
+    <script src="js/autofill.js" type="module"></script>
+    <script src="js/handleSubmit.js" type="module"> </script>
+    <script src="js/nextPage.js" type="module"></script>
+    <script>
+        window.onload = function () {
+            localStorage.clear();  // Clears all data in localStorage
+        };
+    </script>
+</head>
+
+<body>
+    <h1>Connections</h1>
+
+    <form id="form-group1">
+        <label>Category</label>
+        <input id="textarea-group1" type="text"></textarea>
+        <label for="group1">Words</label>
+        <input id="group1" type="text" />
+        <button id="button-group1" type="button" onclick="handleSubmit(this,'group1', 'container-group1')">+</button>
+    </form>
+
+    <div id="container-group1" class="grid-container"></div>
+
+    <form id="form-group2">
+        <label>Category</label>
+        <input id="textarea-group2" type="text"></textarea>
+        <label for="group2">Words</label>
+        <input id="group2"></input>
+        <button id="button-group2" type="button" onclick="handleSubmit(this, 'group2','container-group2')">+</button>
+    </form>
+
+    <div id="container-group2" class="grid-container"></div>
+
+    <form id="form-group3">
+        <label>Category</label>
+        <input id="textarea-group3" type="text"></textarea>
+        <label for="group3">Words</label>
+        <input id="group3"></input>
+        <button id="button-group3" type="button" onclick="handleSubmit(this,'group3','container-group3')">+</button>
+    </form>
+
+    <div id="container-group3" class="grid-container"></div>
+
+    <form id="form-group4">
+        <label>Category</label>
+        <input id="textarea-group4" type="text"></textarea>
+        <label for="group4">Words</label>
+        <input id="group4"></input>
+        <button id="button-group4" type="button" onclick="handleSubmit(this,'group4','container-group4')">+</button>
+    </form>
+
+    <div id="container-group4" class="grid-container"></div>
+
+
+    <div id="container-group4" class="grid-container"></div>
+
+
+    <div id="nextPage">
+        <button type="button" id="nextButton" onclick="nextPage()">Continue</button>
+        <button type="button" id="nextButton" onclick="autofill()"> Autofill</button>
+    </div>
+
+
+
+
+
+
+</body>

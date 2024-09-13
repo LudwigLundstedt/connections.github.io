@@ -1,0 +1,98 @@
+{
+    "VITALITY": [
+        "ENERGY",
+        "JUICE",
+        "LIFE",
+        "ZIP"
+    ],
+    "CAR MODELS": [
+        "BEETLE",
+        "CIVIC",
+        "FOCUS",
+        "VOLT"
+    ],
+    "TRANSFER": [
+        "DELIVER",
+        "HAND",
+        "GIVE",
+        "PASS"
+    ],
+    "RATING SYSTEMS": [
+        "A-F",
+        "PRECENTAGE",
+        "STARS",
+        "THUMBS"
+    ],
+    "VERY SMALL AMOUNT": [
+        "HINT",
+        "TOUCH",
+        "TRACE",
+        "SHRED"
+    ],
+    "HELP PUT ON A PARTY": [
+        "CATER",
+        "HOST",
+        "THROW",
+        "PLAN"
+    ],
+    "SYMBOLS ON A KEYBOARD": [
+        "BRACE",
+        "CARET",
+        "HASH",
+        "STAR"
+    ],
+    "PUPPY PURCHASES": [
+        "BED",
+        "BOWL",
+        "COLLAR",
+        "CRATE"
+    ],
+    "QUANTITY": [
+        "AMOUNT",
+        "COUNT",
+        "NUMBER",
+        "TOTAL"
+    ],
+    "INCIDENT": [
+        "AFFAIR",
+        "EPISODE",
+        "EVENT",
+        "MATTER"
+    ],
+    "THINGS RECEIVED IN THE MAIL": [
+        "BILL",
+        "CARD",
+        "CATALOG",
+        "LETTER"
+    ],
+    "WAYS TO TRANSFORM AN IMAGE": [
+        "CROP",
+        "FLIP",
+        "ROTATE",
+        "SCALE"
+    ],
+    "AQUARIUM PURCHASES": [
+        "FILTER",
+        "PUMP",
+        "ROCKS",
+        "TANK"
+    ],
+    "VERBS IN A CAKE RECIPE": [
+        "BAKE",
+        "BEAT",
+        "FROST",
+        "PREHEAT"
+    ],
+    "CONTINUOUS": [
+        "CONSECUTIVE",
+        "NONSTOP",
+        "SOLID",
+        "STRAIGHT"
+    ],
+    "VARIETIES": [
+        "KINDS",
+        "SORTS",
+        "STRIPES",
+        "TYPES"
+    ]
+}

@@ -1,0 +1,8 @@
+button {
+  width: 5rem;
+  border-radius: 10px;
+  background-color: white;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+}
