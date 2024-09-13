@@ -1,4 +1,5 @@
 function autofill() {
+  //Vi testar igen!
   fetch("./assets/groups.json")
     .then((response) => response.json()) // Parse the JSON
     .then((data) => {
